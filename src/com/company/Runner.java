@@ -10,10 +10,8 @@ public class Runner {
 
         Scanner in = new Scanner(System.in);
 
-        /*
-        String winner = playGame(board);
-        printWinner(winner);
-        */
+        Player player1 = new PlayerBuilder().board(board).name("Tolek").build();
+
     }
 
 
